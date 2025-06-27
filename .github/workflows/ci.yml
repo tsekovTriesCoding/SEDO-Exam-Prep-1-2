@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - develop
-      - staging
+      - feature
 
 jobs:
-  build:
+  build and test:
 
     runs-on: ubuntu-latest
 
